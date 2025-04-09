@@ -12,9 +12,7 @@ export function uiRender({ data }) {
           <h2 class="card-title">${name}</h2>
     </div>
           <p class="line-clamp-3">${description}</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">${price}</button>
-          </div>
+          
         </div>
       </div>
         </li>
