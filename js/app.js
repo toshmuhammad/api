@@ -42,9 +42,9 @@ tab1.addEventListener('click', function () {
         })
         .then((res) => {
             uiRender(res);
-            // let dat=data(res)
-            // wrapper.innerHTML+=data
-            // console.log(res)
+            let dat=data(res)
+            wrapper.innerHTML+=data
+            console.log(res)
         })
         .catch((error) => { })
         .finally(() => { })
@@ -55,7 +55,7 @@ tab1.addEventListener('click', function () {
 
 
 tab2.addEventListener('click', function () {
-    // container.classList.remove('grid')
+    container.classList.remove('grid')
     fetch("https://json-api.uz/api/project/fn37/students")
         .then((oquvchi) => {
             return oquvchi.json();

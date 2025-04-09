@@ -1,6 +1,4 @@
 const elLoader = document.getElementById("loader"),
-    elContainer = document.getElementById("container"),
-    elKun = document.getElementById("kun"),
-    elTun =document.getElementById("tun")
+    elContainer = document.getElementById("container")
 
-export { elLoader, elContainer, elKun, elTun };
+export { elLoader, elContainer };
